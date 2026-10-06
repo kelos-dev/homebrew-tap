@@ -3,27 +3,27 @@ class Kelos < Formula
   homepage "https://github.com/kelos-dev/kelos"
   license "Apache-2.0"
 
-  version "0.58.0"
+  version "0.59.0"
 
   on_macos do
     on_intel do
       url "https://github.com/kelos-dev/kelos/releases/download/v#{version}/kelos-darwin-amd64"
-      sha256 "a19d9fca94883a0dca9d2065a3a1ec9684ac683a99be6ff9bdb73c35eaeb82b6"
+      sha256 "1ac614d581bd3b04d2aac97e5a7744a4df74f8a7d525cb338769133bc65c4530"
     end
     on_arm do
       url "https://github.com/kelos-dev/kelos/releases/download/v#{version}/kelos-darwin-arm64"
-      sha256 "373230182e81fc1da256322fa7826b155df5afebca90e9ae0658e37c5e10cd1f"
+      sha256 "9b3fbac83476785d003b030d3e72c09208f0a2f3ee01b2fdef28f7f4565bd6b0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kelos-dev/kelos/releases/download/v#{version}/kelos-linux-amd64"
-      sha256 "377c28d4bf6244a03040777544cdbd647a91b519004cdbb8d912804ad77c15f0"
+      sha256 "341a147e9a1089df4635aadf363a74c705c43faedfcafa281db0ebf1cbd7e517"
     end
     on_arm do
       url "https://github.com/kelos-dev/kelos/releases/download/v#{version}/kelos-linux-arm64"
-      sha256 "7b811d966a283008b3f8c4a99e6594c7f6bdb36e5649ffa1bd76464a75ccd7d6"
+      sha256 "67bf298870d1ff9d6f0a9b67d7c451074c361624a5f738647f2bbc726d5ac9b9"
     end
   end
 
